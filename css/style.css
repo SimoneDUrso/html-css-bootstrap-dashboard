@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* LAYOUT CLASSES */
 .top-section {
     width: 100vw;
     height: 100px;
@@ -12,7 +13,6 @@
 .bottom-section {
     width: 100vw;
     height: calc(100vh - 100px);
-    background-color: blue;
 }
 
 .col-1 img {
@@ -23,11 +23,25 @@
 .sidebar {
     width: 100px;
     height: 100%;
-    background-color: orange;
 }
 
 .main-content {
     width: calc(100vw - 100px);
     height: 100%;
     background-color: pink;
+}
+
+.sidebar-top {
+    height: 5%;
+}
+
+.sidebar-bottom {
+    height: 95%;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+/* STYLE CLASSES */
+
+.bg-blue {
+    background-color: rgba(4, 4, 94, 0.945);
 }

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-section {
+    width: 100vw;
+    height: 100px;
+}
+
+.bottom-section {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background-color: blue;
+}
+
+.col-1 img {
+    width: 100px;
+    height: 100px;
+}
+
+.sidebar {
+    width: 100px;
+    height: 100%;
+    background-color: orange;
+}
+
+.main-content {
+    width: calc(100vw - 100px);
+    height: 100%;
+    background-color: pink;
+}

@@ -49,6 +49,7 @@ body {
     height: 60px;
 }
 
+
 /* STYLE CLASSES */
 
 .bg-dark-blue {
@@ -61,4 +62,27 @@ body {
 
 .bg-orange {
     background-color: rgb(255, 72, 0);
+}
+
+.orange {
+    color: rgb(255, 72, 0);
+}
+
+@media screen and (min-width: 480px) {
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar {
+        width: 150px;
+        height: 100%;
+    }
+
+    .offcanvas.offcanvas-end {
+        width: 50%;
+    }
+
 }

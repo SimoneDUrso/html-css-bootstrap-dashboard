@@ -34,7 +34,7 @@
                     </form>
                 </nav>
 
-                <div>
+                <div class="fs-5">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1 d-flex">
                         <li class="nav-item d-lg-block d-none">
                             <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list"
@@ -75,19 +75,19 @@
     <!-- BOTTOM SECTION -->
     <div class="bottom-section d-flex">
         <div class="sidebar bg-dark-blue">
-            <div class="sidebar-top border-1 d-flex flex-column align-items-center pt-4">
-                <div>
-                    <a href="" class="text-decoration-none"><i class="fa-solid fa-house fa-xl mb-5 text-white"></i><span
+            <div class="sidebar-top border-1 d-flex flex-column align-items-center">
+                <div class="sidebar-item p-3">
+                    <a href="" class="text-decoration-none"><i class="fa-solid fa-house fa-xl mb-3 text-white"></i><span
                             class="ms-2 text-white d-none d-lg-inline-block">Home</span></a>
                 </div>
 
-                <div>
+                <div class="sidebar-item p-3">
                     <a href="" class="text-decoration-none"><i
-                            class="fa-solid fa-chart-simple fa-xl mb-5 text-white"></i>
+                            class="fa-solid fa-chart-simple fa-xl mb-3 text-white"></i>
                         <span class="ms-2 text-white d-none d-lg-inline-block">Stats</span></a>
                 </div>
 
-                <div>
+                <div class="sidebar-item p-3">
                     <a href="" class=" text-decoration-none"><i class="fa-solid fa-signal fa-xl text-white"></i>
                         <span class="ms-2 text-white d-none d-lg-inline-block">Signals</span></a>
                 </div>
@@ -95,8 +95,8 @@
             </div>
 
             <div class="sidebar-bottom d-flex justify-content-center align-items-end pb-5">
-                <div>
-                    <a href="" class="text-decoration-none"><i class="fa-solid fa-gear fa-xl text-white mt-5"></i>
+                <div class="sidebar-item p-3">
+                    <a href="" class="text-decoration-none"><i class="fa-solid fa-gear fa-xl text-white"></i>
                         <span class="ms-2 text-white d-none d-lg-inline-block">Admin</span></a>
                 </div>
             </div>
@@ -425,8 +425,8 @@
         <div class="offcanvas-body ">
             <form>
                 <div class="container">
-                    <div class="row d-flex flex-wrap">
-                        <div class="col-6">
+                    <div class="row d-flex flex-wrap flex-column ">
+                        <div class="col-6 col-sm-12">
                             <label class="form-label">Nome</label>
                             <input type="text" class="form-control">
                         </div>
@@ -471,7 +471,7 @@
                         </div>
 
                         <div class="col-3 mt-4">
-                            <label for="exampleInputPassword1" class="form-label">Città</label>
+                            <label for="exampleInputPassword1" class="form-label">CAP</label>
                             <input type="text" class="form-control">
                         </div>
 
